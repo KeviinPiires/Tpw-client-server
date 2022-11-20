@@ -1,0 +1,33 @@
+.card_container {
+    width: 350px;
+  
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .card_id {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+    font-family: monospace;
+  }
+  
+  .card_title {
+    display: inline;
+  }
+  
+  .card_cost {
+    margin-top: 15px;
+  }
+  
+  .card_container:hover {
+    background-color: aqua;
+  }

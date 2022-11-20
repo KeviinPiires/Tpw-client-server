@@ -1,0 +1,32 @@
+.app_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .register_container {
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .register_title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: monospace;
+  }
+  
+  .register_input {
+    display: block;
+    padding: 10px auto;
+    margin: 10px auto;
+  }
+  
+  .register_button {
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
